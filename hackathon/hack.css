@@ -1,0 +1,184 @@
+
+body {
+    //background-image: url("background3.jpg");
+    background-repeat: repeat-x;
+ background-image: url("background.jpg");
+ background-size: 1400px; 
+
+
+}
+
+
+#nav{
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+}
+#container{
+
+}
+
+#main{
+    min-width:1300px;
+}
+/*.................................................................................. links*/
+
+a{
+    text-decoration: none;
+    color: #B82B39;
+    font-family: Comic Sans Ms, Monospace;
+    font-size: 20px;
+    margin: 5px 5px;
+
+}
+a:hover{
+    color:#000;
+    font-size: 160%;
+}
+#whatIs{
+     color:#000;
+    font-family: Comic Sans Ms;
+    left: 260px;
+    position: absolute;
+}
+
+#library{
+    font-family: Comic Sans Ms;
+     color:#000;
+    margin-left: 460px;
+    position: absolute;
+
+}
+
+#partners{
+    color:#000;
+    font-family: Comic Sans Ms;
+    margin-left: 640px;
+    position: absolute;
+}
+
+#smart{
+    color:#000;
+    font-family: Comic Sans Ms;
+    margin-left: 820px;
+    position: absolute;
+}
+
+#arm, #eng{
+    margin: 2px;
+    border-radius: 5px;
+    padding: 1px 1px;
+}
+
+/*..................................................................................spans for links*/
+
+
+#loginReg{
+    margin-top: 5px;
+    margin-left: 180px;
+    float:left;
+
+}
+#login, #register{
+    border-radius: 10px;
+    background: rgba(255,245,215,0.4);
+    padding: 6px 200px;
+
+}
+#chapters{
+    background-image: url("background2.jpg");
+    margin-top: 10px;
+    margin: 0px 150px;
+
+
+}
+#flags, #arm, #eng{
+    float: right; 
+}
+img{
+    width: 70px;
+    height: 22px;
+    margin: 2px;
+}
+/*.........................................LOGOS...................................................*/
+#logos{
+    margin-top: 300px;
+    padding: 13px 70px;
+    margin-left: 160px;
+    border-radius: 10px;
+    //opacity: 0,6px;
+    height: 190px;
+    width: 900px;
+    //border: 1px solid #41780b;
+    background:rgba(5,61,101, 0.4);
+
+
+}
+#mainLogo{
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+#logo{
+    width: 350px;
+    height:200px;
+
+}
+
+
+#js{
+    width: 160px;
+    height:130px;
+    margin:13px 12px;
+    border-radius: 20px;
+
+}
+#jquery{
+    width: 130px;
+    height:100px;
+    margin:13px 13px;
+    border-radius: 20px;
+
+}
+#html{
+    width: 130px;
+    height:100px;
+    margin:13px 13px;
+    border-radius: 20px;
+}
+#php{
+    width: 130px;
+    height:100px;
+    margin:13px 13px;
+    border-radius: 20px;
+
+}
+#css{
+    width: 130px;
+    height:100px;
+    margin:13px 13px;
+    border-radius: 20px;
+  
+
+}
+
+
+#logo:hover {
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+}
+#jquery:hover {
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+}
+#js:hover {
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+}
+#html:hover {
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+}
+#php:hover {
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+}
+#css:hover {
+    -webkit-transform:scale(1.2); transform:scale(1.2);
+}

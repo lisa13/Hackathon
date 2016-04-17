@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="exercise2.js"></script>
+        <script src="exercise.js"></script>
+        <link rel="stylesheet" href="exercise.css" type="text/css">
+    </head>
+    <body>
+        <div id="main">
+           <div id="header">
+               <span class="profPic"><a href=" " ></a></span>
+               
+               <span class="info">Hayk077941211   <a href=" " style="color:#E55126; " >(301)</a></span>
+               
+               <span class="cssImg"><a><img id="css" src="css.png"/></a></span>
+               <span class="title">Վարժություններ</span>
+               <ul type="none">
+                   <li><a href="">Ինչ է Վեբ Ծրագրավորումը</a></li>
+                   <li><a  href="">Գրադարան</a></li>
+                   <li><a  href="">Ֆորում</a></li>
+                   <li><a  href="">Գործընկերներ</a></li>
+               </ul>
+               <span class="imgHtml"></span>
+           </div>
+            <div id="content">
+                <div id="cotentInfo"></div>
+                <ul type="none" id="exList">
+                    <li class="showList" onclick="">Գործողություններ տեկստերի  հետ<b>(5)</b>
+                        
+                    </li>
+                    <li class="showList">Գործողություններ ցանկերի հետ<b>(8)</b></li>
+                   <li class="showList" id="listEl_3" >
+                       <span class="titleHover" >Գործողություններ աղյուսակների  հետ<b>(13)</b>
+                           <span  class="plus" onclick="tableShow()" >+</span>
+                           <span  class="minus" onclick="tableHide()" >-</span>
+                               
+                       </span>
+                        <br>
+                        <span style="display:none;" class="showEl">
+                             <p>Գրել html/css կոդ, որի միջցով պետք  է ստանալ հետևյալ պատկերը</p>
+                        <img src="img/table.jpg" style="margin-top:20px;">
+                            <ol>
+                                <li>Տողեր և սյունակներ</li>
+                                <li>Վերնագիր</li>
+                                <li>Պարունակություն</li>
+                                <li>Շրջանակ</li>
+                                <li>Տողերի և սյունակների միացում</li>
+                                
+                                <li>Պարունակության ձևավորում 1</li>
+                                 <li>Պարունակության ձևավորում 2</li>
+                            </ol>
+                            <a href="tableExs/tableExs.html" target="_blank">Փորձել</a>
+                           
+                        </span>
+                         <script>
+                            function tableShow(){
+                                var showSpan=$('#listEl_3 .showEl');
+                                var plus=$('#listEl_3 .plus');
+                                var minus=$('#listEl_3 .minus');
+                                 showEl(showSpan,plus,minus);
+                             }
+                             function tableHide(){
+                                 var showSpan=$('#listEl_3 .showEl');
+                                var plus=$('#listEl_3 .plus');
+                                var minus=$('#listEl_3 .minus');
+                                 hideEl(showSpan,plus,minus);
+                             }
+                          </script>
+                   </li>
+                   <li class="showList">Գործողություններ &lt;form&gt; թագերի հետ<b>(20)</b></li>
+                   <li class="showList">Գործողություններ &lt;div&gt; և &lt;span&gt; թագերով<b>(25)</b></li>
+                    
+                  
+                </ul>
+                <ul type="none" id="exListHide">
+                    <li class="hiddenList">Կառուցել մենյու ցանկերի օգնությամբ<b>(25)</b></li>
+                    <li class="hiddenList">Հավաքել տրված լոգին-ի էջը<b>(13)</b></li>
+                    <li class="hiddenList">Հավաքել տրված լոգին-ի էջը<b>(13)</b></li>
+                    <li class="hiddenList">Հավաքել տրված լոգին-ի էջը<b>(13)</b></li>
+                    <li class="hiddenList">Հավաքել տրված լոգին-ի էջը<b>(13)</b></li>
+                    
+                  
+                </ul>
+            </div>
+            
+            <div id="footer">
+                
+            </div>
+        </div>
+    </body>
+</html>

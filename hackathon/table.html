@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="table.css">
+        
+        <script src="table.js"></script>
+    </head>
+    <body  onload="htmlView()">
+        <div id="main">
+            <div id="title">
+                <span style="text-align:center;color:red;font-weight:500;font-size:150%; " id="span">Առաջադրանքներ աղյուսակների հետ-<span id="EXS" style="color:#001727;">Տողեր և սյունակներ</span> </span>
+            
+                
+          
+            </div>
+            <div class="ex1">
+               <p style="padding:12px;font-size:18px;font-weight:550;">Ավելացնել տողեր և սյունակներ &lt;table&gt; թագի մեջ</p>
+                <input type="button" value="Հուշում" onclick="tip()"  >
+                <span style="display:none;margin-left:12px;" class="tip">Օգտագործել &lt;tr&gt; և &lt;td&gt; թագերը,&lt;tr&gt; -ի մեջ դնել &lt;td&gt; թագը</span>
+                <script>
+                    function tip(){
+                         document.getElementsByTagName('input')[0].style.display="none";
+                        document.getElementsByClassName('tip')[0].style.display="block";
+                    }
+                </script>
+                <p style="margin-top:6px; text-align:center;color:red;cursor:pointer">Տեսնել պրոեկտի վերջում ստացվող նկարը </p>
+                <p style="padding:6px; text-align:center;color:red;">Տեսնել հետևյալ վարժությունը լուծելու համար անհրաժեշտ  <a href="">ՍԼԱՅԴԸ</a> </p>
+               
+            </div>
+            <div class="code1">
+                
+                
+                      
+                    <div id="code" contenteditable="true" oninput="htmlView()">
+                        &lt;html&gt;<br> 
+                        &lt;head&gt;<br> 
+                        &lt;title&gt;Կայքի անվանումը&lt;/title&gt;<br> 
+                        <div id="styleEdit" contenteditable="true">
+                                &lt;style&gt;
+                                <br><br><br>
+                                &lt;/style&gt;
+                        </div>
+                        <br>
+                        &lt;/head&gt;<br> 
+                        &lt;body&gt;<br> 
+                        <div id="check" contenteditable="true">
+
+                        </div>
+                        &lt;/body&gt;<br> 
+                        &lt;/html&gt;
+                   
+                    </div>
+                    
+                
+                <iframe  id="iframe" ></iframe>
+               
+            </div>
+            <div id="buttons">
+                <input type="button" value="previus" onclick="previus1 ()" style="float:left;margin:10px;height:20px;width:100px;">
+                <input type="button" value="next" onclick="next1 ()" style="float:right;margin:10px;height:20px;width:100px;">
+            </div>
+        </div>
+        
+    </body>
+</html>

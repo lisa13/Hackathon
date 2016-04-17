@@ -1,0 +1,123 @@
+html,body{
+    height:100%;
+   
+}
+body{
+     margin:0;
+    background-image:url('../img/back.jpg');
+     
+}
+input{
+    cursor:pointer;
+    margin-left:12px;
+}
+
+#main{
+    margin:0;
+    padding:0;
+    height:100%;
+    background-image:url('../img/back.jpg');
+   min-width:1300px;
+    
+    
+}
+#title{
+    
+    margin:0;
+    padding:0;
+    
+    width:100%;
+    background-color:#ffffff;
+        
+}
+.exNum{
+    width:100%;
+    border-top:1px dashed #000000;
+    
+   padding:0;
+   margin:0;
+    display:inline-block;
+    
+}
+.exNum li{
+    font-size:120%;
+    margin:6px 12px 6px 12px;
+    cursor:pointer;
+    float:left;
+    display:inline-bock;
+   
+}
+.exNum li:hover{
+    color:red;
+   
+}
+.exNum li:first-child{
+    color:red;
+}
+.ex1{
+    width:190px;
+    background-color:#ffffff;
+    height:88.1%;
+    float:left;
+    margin-top:6px;
+    
+}
+.code1{
+    margin-left:190px;
+    
+    height:88.1%;
+    margin-top:6px;
+}
+#textCode{
+    margin-left:6px;
+    width:50%;
+    height:100%;
+    background-color:#111111;
+    color:#ffffff;
+    font-size:130%;
+    overflow: scroll;
+    
+}
+#textCode:focus{
+    outline:none;
+}
+
+
+
+
+#pages{
+    background-color:#000000;
+    float:left;
+    width:20px;
+    height:100%;
+    color:#ffffff;
+    margin-right:5px;
+}
+#code{
+    width:46%;
+    background-color:#2C3033;
+    height:96%;
+   font-size:120%;
+   font-family:Courier AM;
+    float:left;
+    color:#ffffff;
+    padding:12px;
+    margin-left:12px;
+    overflow: scroll;
+}
+#divcode{
+    width:50%;
+    float:left;
+   height:100%;
+    font-family:Courier New;
+    background:#2C3033;
+   
+}
+
+iframe{
+    height:99%;
+    width:48%;
+    background-color:#ffffff;
+    margin-left:12px;
+}
+/********************************************************************************************************************/
